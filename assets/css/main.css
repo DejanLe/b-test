@@ -1,0 +1,91 @@
+body{
+	background: #e3e3e34d;
+	font-size: 85%;
+
+}
+.container{
+	width: 768px;
+	margin: 0 auto;
+}
+@media(max-width: 769px){
+	.container{
+		width: 100%;
+	}
+}
+.hero-bg{
+		background: linear-gradient(#36333380, #1e1e20) , url('../img/bg.jpg') !important; 
+	    background-position: 70%  !important;  
+        background-repeat:  no-repeat  !important; 
+        background-attachment: fixed  !important; 
+        background-size:  cover  !important;  
+	    
+}
+.amz-bay{
+	background: url(../assets/img/amb.jpg);
+}
+.box {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0),0 0 0 1px rgba(10, 10, 10, 0) !important;
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+    border-radius: 0 !important;
+}
+.bonuses-title h2{
+	font-weight: 900;
+}
+.navbar-link::after {
+    border: none;
+    }
+.navbar {
+    min-height: 3.25rem;
+    box-shadow: 2px 2px 2px #e3e3e3;
+}
+/*************featured_cources-bg***********/
+.featured_cources-bg{
+	background: linear-gradient(#36333380, #1e1e20) , url('../img/featured_cources.jpg') !important; 
+	    background-position: 50% 50% !important;  
+        background-repeat:  no-repeat  !important; 
+        background-attachment: fixed  !important; 
+        background-size:  cover  !important;  
+	    
+}
+hr {
+
+    background-color: #397de3;
+    border: none;
+    display: block;
+    height: 1px;
+    margin: 1.5rem 0;
+    width: 20%;
+    margin: 0 auto;
+        margin-bottom: 0px;
+    margin-bottom: 1rem;
+
+}
+.card{
+	font-size: 1rem;
+	transition: all 0.5s;
+}
+.content h3 {
+    font-size: 0.8rem;
+    margin-bottom: .6666em;
+    font-weight: 900;
+}
+ .content p {
+    font-size: 0.6rem;
+    margin-bottom: .6666em;
+    font-weight: 300;
+}
+.button.is-info {
+    background-color: #6fa3f8 !important;
+    border-color: transparent;
+    color: #fff;
+}
+.card:hover{
+	box-shadow: 12px 12px 12px #e3e3e3 ;
+}
+.footer{
+	background: #fff;
+}
